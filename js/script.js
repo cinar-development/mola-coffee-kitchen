@@ -18,7 +18,7 @@
       document.body.classList.add("nav-open");
     };
 
-    const closeMenu = (options = {}) => {
+    const closeMenu = ({ returnFocus = false } = {}) => {
       if (!isOpen()) return;
 
       nav.classList.remove("is-open");
@@ -26,7 +26,7 @@
       toggle.setAttribute("aria-label", "Menüyü aç");
       document.body.classList.remove("nav-open");
 
-      if (options.returnFocus) {
+      if (returnFocus) {
         toggle.focus();
       }
     };
@@ -34,21 +34,26 @@
     toggle.addEventListener("click", () => {
       if (isOpen()) {
         closeMenu();
-      } else {
-        openMenu();
+        return;
       }
+
+      openMenu();
     });
 
     nav.addEventListener("click", (event) => {
-      if (event.target.closest("a")) {
-        closeMenu();
-      }
+      if (!(event.target instanceof Element)) return;
+
+      const link = event.target.closest("a");
+
+      if (!link) return;
+
+      closeMenu();
     });
 
     document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && isOpen()) {
-        closeMenu({ returnFocus: true });
-      }
+      if (event.key !== "Escape" || !isOpen()) return;
+
+      closeMenu({ returnFocus: true });
     });
 
     const desktopQuery = window.matchMedia(DESKTOP_QUERY);
@@ -83,11 +88,15 @@
     if (!buttons.length || !items.length) return;
 
     filterGroup.addEventListener("click", (event) => {
+      if (!(event.target instanceof Element)) return;
+
       const button = event.target.closest(".menu-filter__button");
 
-      if (!button) return;
+      if (!button || !filterGroup.contains(button)) return;
 
       const category = button.dataset.filter;
+
+      if (!category) return;
 
       buttons.forEach((btn) => {
         const active = btn === button;
@@ -97,9 +106,10 @@
       });
 
       items.forEach((item) => {
+        const itemCategory = item.dataset.category;
         const show =
           category === "tumu" ||
-          item.dataset.category === category;
+          itemCategory === category;
 
         item.classList.toggle("is-hidden", !show);
       });
@@ -123,19 +133,16 @@
       ticking = false;
     };
 
-    window.addEventListener(
-      "scroll",
-      () => {
-        if (ticking) return;
+    const handleScroll = () => {
+      if (ticking) return;
 
-        ticking = true;
+      ticking = true;
+      window.requestAnimationFrame(update);
+    };
 
-        window.requestAnimationFrame(update);
-      },
-      {
-        passive: true
-      }
-    );
+    window.addEventListener("scroll", handleScroll, {
+      passive: true
+    });
 
     update();
   };
@@ -146,5 +153,11 @@
     initHeaderScroll();
   };
 
-  init();
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", init, {
+      once: true
+    });
+  } else {
+    init();
+  }
 })();
