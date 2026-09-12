@@ -2,454 +2,452 @@
 <html lang="tr">
 <head>
   <meta charset="UTF-8">
-
-<meta
-name=“viewport”
-content=“width=device-width, initial-scale=1.0”
-
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
   <title>Menü — MOLA Coffee & Kitchen</title>
-
-<meta
-name=“description”
-content=“MOLA Coffee & Kitchen menüsü — kahve, kahvaltı, tatlı ve yemek seçeneklerini keşfedin.”
-
-<meta
-name=“robots”
-content=“index, follow”
-
-<meta
-name=“theme-color”
-content=”#2b1b12”
-
+  <meta
+    name="description"
+    content="MOLA Coffee & Kitchen menüsü — kahve, kahvaltı, tatlı ve yemek seçeneklerini keşfedin."
+  >
+  <meta
+    name="robots"
+    content="index, follow"
+  >
+  <meta
+    name="theme-color"
+    content="#2b1b12"
+  >
+  <link
+    rel="icon"
+    href="assets/icons/favicon.svg"
+    type="image/svg+xml"
+  >
   <link
     rel="stylesheet"
     href="css/style.css"
   >
 </head>
 <body>
-
-<a
-class=“skip-link”
-href=”#main-content”
-
-İçeriğe geç
+  <a
+    class="skip-link"
+    href="#main-content"
+  >
+    İçeriğe geç
   </a>
   <header class="site-header">
     <div class="container site-header__inner">
-  <a
-    class="brand"
-    href="index.html"
-    aria-label="MOLA Coffee & Kitchen ana sayfa"
-  >
-    MOLA
-  </a>
-  <button
-    class="nav-toggle"
-    type="button"
-    aria-expanded="false"
-    aria-controls="primary-navigation"
-    aria-label="Menüyü aç"
-  >
-    <span
-      class="nav-toggle__icon"
-      aria-hidden="true"
-    >
-      <span></span>
-      <span></span>
-      <span></span>
-    </span>
-  </button>
-  <nav
-    class="primary-nav"
-    id="primary-navigation"
-    aria-label="Ana navigasyon"
-  >
-    <ul class="primary-nav__list">
-      <li>
-        <a href="index.html">
-          Ana Sayfa
-        </a>
-      </li>
-      <li>
-        <a
-          href="menu.html"
-          aria-current="page"
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="MOLA Coffee & Kitchen ana sayfa"
+      >
+        MOLA
+      </a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+        aria-label="Menüyü aç"
+      >
+        <span
+          class="nav-toggle__icon"
+          aria-hidden="true"
         >
-          Menü
-        </a>
-      </li>
-      <li>
-        <a href="about.html">
-          Hakkımızda
-        </a>
-      </li>
-      <li>
-        <a href="index.html#gallery">
-          Galeri
-        </a>
-      </li>
-      <li>
-        <a href="index.html#contact">
-          İletişim
-        </a>
-      </li>
-    </ul>
-  </nav>
-</div>
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
+      </button>
+      <nav
+        class="primary-nav"
+        id="primary-navigation"
+        aria-label="Ana navigasyon"
+      >
+        <ul class="primary-nav__list">
+          <li>
+            <a href="index.html">
+              Ana Sayfa
+            </a>
+          </li>
+          <li>
+            <a
+              href="menu.html"
+              aria-current="page"
+            >
+              Menü
+            </a>
+          </li>
+          <li>
+            <a href="about.html">
+              Hakkımızda
+            </a>
+          </li>
+          <li>
+            <a href="index.html#gallery">
+              Galeri
+            </a>
+          </li>
+          <li>
+            <a href="index.html#contact">
+              İletişim
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main id="main-content">
-<section
-  class="section menu-preview"
-  style="padding-top: 10rem;"
->
-  <div class="container">
-    <div class="featured__header">
-      <div>
-        <p class="section-label">
-          MOLA MENÜ
-        </p>
-        <h1>
-          Bir sonraki molanı seç.
-        </h1>
+    <section
+      class="section menu-preview page-section--spacious"
+    >
+      <div class="container">
+        <div class="featured__header">
+          <div>
+            <p class="section-label">
+              MOLA MENÜ
+            </p>
+            <h1>
+              Bir sonraki molanı seç.
+            </h1>
+          </div>
+          <p class="section-intro">
+            Sabah kahvesinden uzun kahvaltılara,
+            tatlı molalardan doyurucu seçeneklere
+            kadar MOLA'dan favorini seç.
+          </p>
+        </div>
+        <div
+          class="menu-filter"
+          role="group"
+          aria-label="Menü kategorileri"
+        >
+          <button
+            class="menu-filter__button is-active"
+            type="button"
+            data-filter="tumu"
+            aria-pressed="true"
+          >
+            Tümü
+          </button>
+          <button
+            class="menu-filter__button"
+            type="button"
+            data-filter="kahve"
+            aria-pressed="false"
+          >
+            Kahve
+          </button>
+          <button
+            class="menu-filter__button"
+            type="button"
+            data-filter="kahvalti"
+            aria-pressed="false"
+          >
+            Kahvaltı
+          </button>
+          <button
+            class="menu-filter__button"
+            type="button"
+            data-filter="tatli"
+            aria-pressed="false"
+          >
+            Tatlı
+          </button>
+          <button
+            class="menu-filter__button"
+            type="button"
+            data-filter="yemek"
+            aria-pressed="false"
+          >
+            Yemek
+          </button>
+        </div>
+        <div
+          class="menu-grid"
+          id="menu-preview-grid"
+        >
+          <!-- Kahve -->
+          <article
+            class="menu-item"
+            data-category="kahve"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Mola Latte
+              </h2>
+              <p class="menu-item__description">
+                Espresso ve kadifemsi süt köpüğüyle
+                dengeli, yumuşak içimli latte.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺145
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="kahve"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Flat White
+              </h2>
+              <p class="menu-item__description">
+                Yoğun espresso ve ince dokulu süt ile
+                güçlü ve dengeli bir kahve.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺135
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="kahve"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Caramel Macchiato
+              </h2>
+              <p class="menu-item__description">
+                Espresso, süt ve karamel aromalarının
+                tatlı dengesi.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺155
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="kahve"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Türk Kahvesi
+              </h2>
+              <p class="menu-item__description">
+                Geleneksel Türk kahvesi, yoğun aroma
+                ve klasik MOLA sunumuyla.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺110
+            </span>
+          </article>
+          <!-- Kahvaltı -->
+          <article
+            class="menu-item"
+            data-category="kahvalti"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Avokadolu Tost
+              </h2>
+              <p class="menu-item__description">
+                Ekşi mayalı ekmek, avokado, yumurta
+                ve taze yeşillikler.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺235
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="kahvalti"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Serpme Kahvaltı
+              </h2>
+              <p class="menu-item__description">
+                Paylaşmalık kahvaltılıklarla uzun ve
+                keyifli bir sabah için.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺420
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="kahvalti"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Kruvasan Kahvaltı
+              </h2>
+              <p class="menu-item__description">
+                Taze kruvasan, yumurta ve kahvaltılık
+                eşlikçilerle hafif bir başlangıç.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺220
+            </span>
+          </article>
+          <!-- Tatlı -->
+          <article
+            class="menu-item"
+            data-category="tatli"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                San Sebastian
+              </h2>
+              <p class="menu-item__description">
+                Dışı karamelize, içi yumuşak ve yoğun
+                aromalı cheesecake.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺185
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="tatli"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Brownie
+              </h2>
+              <p class="menu-item__description">
+                Yoğun çikolata aromalı, dışı hafif
+                kıtır ve içi yumuşak brownie.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺165
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="tatli"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Tiramisu
+              </h2>
+              <p class="menu-item__description">
+                Kahve aroması ve mascarpone dokusuyla
+                klasik İtalyan tatlısı.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺175
+            </span>
+          </article>
+          <!-- Yemek -->
+          <article
+            class="menu-item"
+            data-category="yemek"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Chicken Wrap
+              </h2>
+              <p class="menu-item__description">
+                Izgara tavuk, taze sebzeler ve özel
+                sos ile hazırlanan wrap.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺245
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="yemek"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Makarna
+              </h2>
+              <p class="menu-item__description">
+                Günlük hazırlanmış sos ve seçili
+                malzemelerle sıcak bir klasik.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺260
+            </span>
+          </article>
+          <article
+            class="menu-item"
+            data-category="yemek"
+          >
+            <div>
+              <h2 class="menu-item__name">
+                Club Sandwich
+              </h2>
+              <p class="menu-item__description">
+                Katmanlı ekmek, tavuk, taze sebzeler
+                ve özel sos ile hazırlanır.
+              </p>
+            </div>
+            <span class="menu-item__price">
+              ₺275
+            </span>
+          </article>
+        </div>
+        <div class="contact__map menu-demo-note">
+          <p>
+            <strong>Demo menü</strong><br>
+            Ürünler ve fiyatlar tasarım konsepti
+            amacıyla hazırlanmıştır. Gerçek müşteri
+            projesinde işletme tarafından doğrulanmış
+            bilgiler kullanılacaktır.
+          </p>
+        </div>
       </div>
-      <p class="section-intro">
-        Sabah kahvesinden uzun kahvaltılara,
-        tatlı molalardan doyurucu seçeneklere
-        kadar MOLA'dan favorini seç.
-      </p>
-    </div>
-    <div
-      class="menu-filter"
-      role="group"
-      aria-label="Menü kategorileri"
-    >
-      <button
-        class="menu-filter__button is-active"
-        type="button"
-        data-filter="tumu"
-        aria-pressed="true"
-      >
-        Tümü
-      </button>
-      <button
-        class="menu-filter__button"
-        type="button"
-        data-filter="kahve"
-        aria-pressed="false"
-      >
-        Kahve
-      </button>
-      <button
-        class="menu-filter__button"
-        type="button"
-        data-filter="kahvalti"
-        aria-pressed="false"
-      >
-        Kahvaltı
-      </button>
-      <button
-        class="menu-filter__button"
-        type="button"
-        data-filter="tatli"
-        aria-pressed="false"
-      >
-        Tatlı
-      </button>
-      <button
-        class="menu-filter__button"
-        type="button"
-        data-filter="yemek"
-        aria-pressed="false"
-      >
-        Yemek
-      </button>
-    </div>
-    <div
-      class="menu-grid"
-      id="menu-preview-grid"
-    >
-      <!-- Kahve -->
-      <article
-        class="menu-item"
-        data-category="kahve"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Mola Latte
-          </h2>
-          <p class="menu-item__description">
-            Espresso ve kadifemsi süt köpüğüyle
-            dengeli, yumuşak içimli latte.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺145
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="kahve"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Flat White
-          </h2>
-          <p class="menu-item__description">
-            Yoğun espresso ve ince dokulu süt ile
-            güçlü ve dengeli bir kahve.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺135
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="kahve"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Caramel Macchiato
-          </h2>
-          <p class="menu-item__description">
-            Espresso, süt ve karamel aromalarının
-            tatlı dengesi.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺155
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="kahve"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Türk Kahvesi
-          </h2>
-          <p class="menu-item__description">
-            Geleneksel Türk kahvesi, yoğun aroma
-            ve klasik MOLA sunumuyla.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺110
-        </span>
-      </article>
-      <!-- Kahvaltı -->
-      <article
-        class="menu-item"
-        data-category="kahvalti"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Avokadolu Tost
-          </h2>
-          <p class="menu-item__description">
-            Ekşi mayalı ekmek, avokado, yumurta
-            ve taze yeşillikler.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺235
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="kahvalti"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Serpme Kahvaltı
-          </h2>
-          <p class="menu-item__description">
-            Paylaşmalık kahvaltılıklarla uzun ve
-            keyifli bir sabah için.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺420
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="kahvalti"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Kruvasan Kahvaltı
-          </h2>
-          <p class="menu-item__description">
-            Taze kruvasan, yumurta ve kahvaltılık
-            eşlikçilerle hafif bir başlangıç.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺220
-        </span>
-      </article>
-      <!-- Tatlı -->
-      <article
-        class="menu-item"
-        data-category="tatli"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            San Sebastian
-          </h2>
-          <p class="menu-item__description">
-            Dışı karamelize, içi yumuşak ve yoğun
-            aromalı cheesecake.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺185
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="tatli"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Brownie
-          </h2>
-          <p class="menu-item__description">
-            Yoğun çikolata aromalı, dışı hafif
-            kıtır ve içi yumuşak brownie.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺165
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="tatli"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Tiramisu
-          </h2>
-          <p class="menu-item__description">
-            Kahve aroması ve mascarpone dokusuyla
-            klasik İtalyan tatlısı.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺175
-        </span>
-      </article>
-      <!-- Yemek -->
-      <article
-        class="menu-item"
-        data-category="yemek"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Chicken Wrap
-          </h2>
-          <p class="menu-item__description">
-            Izgara tavuk, taze sebzeler ve özel
-            sos ile hazırlanan wrap.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺245
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="yemek"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Makarna
-          </h2>
-          <p class="menu-item__description">
-            Günlük hazırlanmış sos ve seçili
-            malzemelerle sıcak bir klasik.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺260
-        </span>
-      </article>
-      <article
-        class="menu-item"
-        data-category="yemek"
-      >
-        <div>
-          <h2 class="menu-item__name">
-            Club Sandwich
-          </h2>
-          <p class="menu-item__description">
-            Katmanlı ekmek, tavuk, taze sebzeler
-            ve özel sos ile hazırlanır.
-          </p>
-        </div>
-        <span class="menu-item__price">
-          ₺275
-        </span>
-      </article>
-    </div>
-    <div
-      class="contact__map"
-      style="margin-top: 3rem;"
-    >
-      <p>
-        <strong>Demo menü</strong><br>
-        Ürünler ve fiyatlar tasarım konsepti
-        amacıyla hazırlanmıştır. Gerçek müşteri
-        projesinde işletme tarafından doğrulanmış
-        bilgiler kullanılacaktır.
-      </p>
-    </div>
-  </div>
-</section>
+    </section>
   </main>
   <footer class="site-footer">
-<div class="container site-footer__inner">
-  <div>
-    <div class="site-footer__brand">
-      MOLA
+    <div class="container site-footer__inner">
+      <div>
+        <div class="site-footer__brand">
+          MOLA
+        </div>
+        <p>
+          Günün en güzel molası.
+        </p>
+      </div>
+      <ul class="site-footer__links">
+        <li>
+          <a href="index.html">
+            Ana Sayfa
+          </a>
+        </li>
+        <li>
+          <a
+            href="menu.html"
+            aria-current="page"
+          >
+            Menü
+          </a>
+        </li>
+        <li>
+          <a href="about.html">
+            Hakkımızda
+          </a>
+        </li>
+        <li>
+          <a href="index.html#gallery">
+            Galeri
+          </a>
+        </li>
+        <li>
+          <a href="index.html#contact">
+            İletişim
+          </a>
+        </li>
+      </ul>
     </div>
-    <p>
-      Günün en güzel molası.
-    </p>
-  </div>
-  <ul class="site-footer__links">
-    <li>
-      <a href="index.html">
-        Ana Sayfa
-      </a>
-    </li>
-    <li>
-      <a
-        href="menu.html"
-        aria-current="page"
-      >
-        Menü
-      </a>
-    </li>
-    <li>
-      <a href="about.html">
-        Hakkımızda
-      </a>
-    </li>
-    <li>
-      <a href="index.html#gallery">
-        Galeri
-      </a>
-    </li>
-    <li>
-      <a href="index.html#contact">
-        İletişim
-      </a>
-    </li>
-  </ul>
-</div>
   </footer>
   <script
     src="js/script.js"
