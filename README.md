@@ -1,122 +1,96 @@
 MOLA Coffee & Kitchen
 
-Modern, responsive and conversion-focused website concept for a contemporary coffee shop.
-
-Günün en güzel molası.
+Modern, warm and conversion-focused website concept for a contemporary café.
 
 About
 
-MOLA Coffee & Kitchen is a fictional café website concept created as a portfolio and commercial web-design demonstration.
+MOLA Coffee & Kitchen is a modern café website concept built around a warm visual identity, strong food photography and a simple customer journey.
 
-The project represents a modern coffee shop experience combining coffee, breakfast, desserts, light meals and comfortable social spaces.
+The project is designed as a realistic business website prototype that can be adapted for an actual café, restaurant or hospitality brand.
 
-The website focuses on visual quality, usability, performance, accessibility and clear conversion paths.
-
-Demo project: MOLA Coffee & Kitchen is fictional. Business information, prices, testimonials, contact details and other production data must be replaced with verified client information before launch.
+Tagline:
+“Günün en güzel molası.”
 
 Project Goals
 
-The project is designed to demonstrate how a modern local-business website can:
+The project focuses on creating a polished digital presence for a contemporary café.
 
-* Present a clear and memorable brand
-* Showcase products through high-quality photography
-* Make the menu easy to explore
-* Guide visitors toward contact and visit actions
-* Work across mobile, tablet and desktop devices
-* Provide a strong technical foundation for SEO
-* Use accessible and semantic markup
-* Load efficiently without unnecessary dependencies
+Key goals include:
+
+* Strong first impression
+* Clear navigation
+* Easy access to the menu
+* Clear contact and location pathways
+* Mobile-first experience
+* Fast and lightweight implementation
+* Accessible interaction
+* Easy customization for real businesses
 
 Website
 
-The project contains three primary pages.
-
 Homepage
 
-The homepage is the main brand and conversion experience.
+The homepage introduces the MOLA brand through:
 
-It includes:
-
-* Header and navigation
-* Hero section
+* Hero presentation
 * Featured products
-* MOLA story
+* Brand story
 * Menu preview
-* Gallery
-* Testimonials
-* Contact
-* Footer
+* Photography gallery
+* Demo testimonials
+* Contact section
 
 Menu
 
-The menu page provides category-based browsing for:
+The menu page provides the complete demo menu with category filtering.
+
+Available categories include:
 
 * Kahve
 * Kahvaltı
 * Tatlı
 * Yemek
 
-All current products and prices are demonstration data.
-
 About
 
-The about page introduces:
+The About page presents:
 
-* MOLA’s fictional story
-* Brand philosophy
-* Experience principles
-* Demonstration content
-* Navigation toward the menu
+* MOLA’s brand story
+* Brand approach
+* Café philosophy
+* Supporting content
+* Demo testimonials
+* Call-to-action section
 
 Design Direction
 
-The visual language combines:
+MOLA follows a modern, warm and minimal visual direction.
 
-* Warm minimalism
-* Editorial composition
-* Contemporary coffee culture
-* Strong typography
-* Natural photography
-* Restrained color usage
-* Generous whitespace
+The design combines:
+
+* Warm cream backgrounds
+* Coffee-brown surfaces
+* Muted terracotta accents
+* Editorial serif typography
+* Clean sans-serif body typography
+* Spacious layouts
+* Large photography
 * Clear visual hierarchy
-* Conversion-focused layouts
 
-The interface intentionally avoids:
-
-* Excessive gradients
-* Glassmorphism
-* Overly rounded interfaces
-* Excessive animations
-* Generic SaaS-style layouts
-* Unnecessary decorative elements
-
-The goal is to create a website that feels like a real premium local café brand rather than a generic template.
+The overall goal is to feel premium without becoming inaccessible or overly formal.
 
 Photography
 
-The visual direction uses real photography rather than generated or coded placeholder artwork.
+Real photography is used as a core part of the visual identity.
 
-Current image assets:
+Current photography assets include:
 
-File	Purpose
-hero-coffee.jpg	Homepage hero
-mola-latte.jpg	Featured coffee
-avocado-toast.jpg	Featured breakfast
-story-interior.jpg	Brand story / interior
+* hero-coffee.jpg — Homepage hero
+* mola-latte.jpg — Featured coffee
+* avocado-toast.jpg — Featured breakfast
+* story-interior.jpg — Brand story and interior
 
-Additional photography will be added as the product presentation and gallery are completed.
-
-Before production use, every external visual asset must be checked for:
-
-* Commercial-use permission
-* Applicable license requirements
-* Attribution requirements
-* Trademark or branding restrictions
-* Model or property rights where applicable
-* Source documentation
-
-The project must not ship with watermarked or improperly licensed imagery.
+Photography is intentionally preferred over generic placeholder graphics or generated artwork.
 
 Technology
 
@@ -125,191 +99,155 @@ The project uses a lightweight frontend stack:
 * HTML5
 * CSS3
 * Vanilla JavaScript
+* SVG
 
-No frontend framework is required.
+No frontend framework is currently required.
 
-The goal is to keep the website fast, lightweight, maintainable and easy to customize for future clients.
+The implementation is intentionally dependency-free to keep the project lightweight, maintainable and easy to customize.
 
 Technical Principles
 
 Mobile-first
 
-The interface is designed for small screens first and progressively enhanced for larger screens.
+The layout is designed for small screens first and progressively enhanced for larger screens.
 
 Semantic HTML
 
-Meaningful HTML elements are preferred over unnecessary generic containers.
+Semantic HTML elements are used to create a meaningful document structure.
 
 Accessibility
 
-The project aims to provide:
+The project considers:
 
-* Keyboard-friendly navigation
+* Keyboard navigation
 * Visible focus states
-* Skip navigation
-* Appropriate ARIA attributes
-* Meaningful image alternative text
-* Reduced-motion support
-* Sufficient color contrast
+* ARIA attributes where appropriate
+* Accessible navigation controls
+* Reduced-motion preferences
 
 Performance
 
-Performance considerations include:
+The project avoids unnecessary dependencies and keeps the frontend implementation lightweight.
 
-* Optimized image loading
-* Appropriate image dimensions
-* Lazy loading for below-the-fold images
-* High-priority loading for the primary hero image
-* Minimal JavaScript
-* No unnecessary frontend dependencies
+Maintainability
 
-SEO
+Design tokens are centralized through CSS variables, while reusable classes are used throughout the interface.
 
-The production version will include:
+Progressive Enhancement
 
-* Unique page titles
-* Descriptive meta descriptions
-* Canonical URLs
-* Open Graph metadata
-* Social sharing metadata
-* Structured data where appropriate
-* Correct heading hierarchy
-* Descriptive image alt text
-* Production domain configuration
+Core content remains available without relying entirely on JavaScript.
 
 Demo Data
 
-The current website contains fictional demonstration information.
+This repository is a website concept and demonstration project.
 
-The following must be replaced before production:
+The following information is intentionally fictional or placeholder content:
 
-* Business name, if different
+* Business contact information
 * Address
-* Telephone number
-* WhatsApp number
-* Opening hours
-* Menu items
-* Menu prices
-* Product descriptions
-* Testimonials
-* Instagram and social links
-* Map information
-* SEO URLs
-* Structured business data
+* Phone number
+* WhatsApp information
+* Social media accounts
+* Map/location information
+* Customer testimonials
+* Menu pricing
 
-No fictional information should be presented as verified business information.
+Demo information must be replaced with verified business information before production deployment.
 
-File Structure
+Current Development Status
 
-File / Folder	Purpose
-README.md	Project documentation and development information
-index.html	Homepage
-menu.html	Menu and category filtering
-about.html	About and brand story page
-css/style.css	Global styling and responsive design
-js/script.js	Navigation, filtering and interactive behavior
-assets/images/	Website photography
-assets/icons/	Favicon and future brand icons
+The primary website structure is complete.
 
-The structure is intentionally simple so the project can be easily adapted for future local-business clients.
+Completed areas include:
 
-Development Status
+* Homepage
+* Menu page
+* About page
+* Responsive design
+* Photography assets
+* Favicon
+* Navigation
+* Menu filtering
+* Accessibility foundation
+* Global design system
 
-Completed
+The project is currently undergoing technical QA and final production preparation.
 
-* [x]	Initial project structure
-* [x]	Project documentation
-* [x]	Responsive design foundation
-* [x]	Mobile navigation foundation
-* [x]	Menu category filtering
-* [x]	Header scroll behavior
-* [x]	Real photography direction
-* [x]	Initial real photography assets
-* [x]	Removal of temporary coded artwork
+QA Scope
 
-In Progress
+The project is reviewed across:
 
-* [ ]	Rebuild homepage from a consistent design system
-* [ ]	Align all pages with the same component architecture
-* [ ]	Integrate current photography into the homepage
-* [ ]	Complete gallery photography
-* [ ]	Refine responsive behavior
-* [ ]	Improve accessibility
-* [ ]	Optimize image performance
-* [ ]	Create favicon and brand assets
-
-Planned
-
-* [ ]	Final frontend integration
-* [ ]	Cross-browser testing
-* [ ]	Mobile, tablet and desktop QA
-* [ ]	SEO review
-* [ ]	Performance review
-* [ ]	Accessibility review
-* [ ]	Claude code review and debugging
-* [ ]	Replace demo business information
-* [ ]	Production deployment
-
-Quality Assurance
-
-Before the project is considered production-ready, it should be reviewed for:
-
-* HTML structure and validity
+* HTML structure
 * CSS consistency
-* JavaScript functionality
-* Responsive layouts
-* Navigation behavior
-* Keyboard navigation
+* Responsive behavior
+* JavaScript interaction
+* Navigation
+* Internal links
+* Image references
 * Accessibility
-* Image loading
-* Broken links
-* Missing assets
-* SEO metadata
+* SEO fundamentals
 * Performance
-* Browser compatibility
-
-A final code review and debugging pass will be performed after the main implementation is complete.
+* Mobile usability
 
 Production Checklist
 
-Before delivering the website to a real client:
+Before deploying the website for a real business:
 
-* [ ]	Replace all fictional business information
-* [ ]	Verify all menu items and prices
-* [ ]	Verify address and opening hours
-* [ ]	Verify telephone and WhatsApp information
-* [ ]	Verify social media accounts
-* [ ]	Replace demo testimonials with approved content
-* [ ]	Verify image licenses
-* [ ]	Add final brand assets
-* [ ]	Configure production metadata
-* [ ]	Configure canonical URLs
-* [ ]	Add appropriate structured data
-* [ ]	Test all navigation links
-* [ ]	Test all contact actions
-* [ ]	Test responsive layouts
-* [ ]	Run accessibility checks
-* [ ]	Run performance checks
-* [ ]	Complete final code review
-* [ ]	Deploy production version
+* Replace all demo business information
+* Add the real address
+* Add verified opening hours
+* Add the real phone number
+* Add the real WhatsApp link
+* Add official social media accounts
+* Add the real map/location
+* Replace demo testimonials with verified customer feedback
+* Confirm the final menu and pricing
+* Add the canonical URL
+* Add Open Graph metadata
+* Add social sharing metadata
+* Review SEO titles and descriptions
+* Run accessibility checks
+* Test mobile and desktop layouts
+* Optimize final production images
+* Verify every internal and external link
+* Test the production domain
+* Complete the final code-quality review
 
 Project Principles
 
-The project follows these principles:
+MOLA is intentionally built around a simple set of principles:
 
-* Mobile-first
-* Performance-conscious
-* Accessible by default
-* Semantic HTML
-* Minimal dependencies
-* Maintainable code
-* Clear conversion paths
-* Realistic visual presentation
-* Verified production information
-* No misleading demo content
+1. Visual clarity over unnecessary decoration.
+2. Real photography over generic placeholders.
+3. Fast and lightweight implementation.
+4. Mobile-first customer experience.
+5. Clear paths to menu, location and contact.
+6. Reusable structure for real client customization.
+7. Demo content must never be mistaken for real business data.
+
+Commercial Adaptation
+
+The project structure is designed to be reusable for real café and restaurant clients.
+
+For a production client, the visual system can be adapted by replacing:
+
+* Brand name
+* Logo
+* Colors
+* Typography
+* Photography
+* Menu
+* Pricing
+* Business information
+* Contact channels
+* Location
+* Social media
+* SEO metadata
+
+The underlying structure can remain lightweight while the visual identity and content are customized for each business.
 
 License
 
-This project is a fictional portfolio and commercial demonstration concept.
+This repository is a website concept created for demonstration and development purposes.
 
-It is not an official website for a real business named MOLA Coffee & Kitchen.
+Photography assets are used according to their applicable source licenses. Before commercial deployment, each asset should be reviewed again against its current license and any applicable third-party rights.
