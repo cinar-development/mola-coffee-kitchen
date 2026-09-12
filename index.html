@@ -1,431 +1,1159 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
   <title>MOLA Coffee & Kitchen | Günün en güzel molası.</title>
-  <meta name="description" content="MOLA Coffee & Kitchen; iyi kahve, taze kahvaltı, tatlılar ve keyifli sohbetler için modern bir şehir kafesi.">
-  <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://example.com/">
 
-  <meta property="og:title" content="MOLA Coffee & Kitchen | Günün en güzel molası.">
-  <meta property="og:description" content="MOLA Coffee & Kitchen; iyi kahve, taze kahvaltı, tatlılar ve keyifli sohbetler için modern bir şehir kafesi.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://example.com/">
-  <meta property="og:image" content="https://example.com/assets/images/hero-coffee.jpg">
-  <meta property="og:locale" content="tr_TR">
+  <meta
+    name="description"
+    content="MOLA Coffee & Kitchen; iyi kahve, taze kahvaltı, tatlılar ve keyifli sohbetler için tasarlanmış modern bir kafe konseptidir."
+  >
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="MOLA Coffee & Kitchen | Günün en güzel molası.">
-  <meta name="twitter:description" content="MOLA Coffee & Kitchen; iyi kahve, taze kahvaltı, tatlılar ve keyifli sohbetler için modern bir şehir kafesi.">
-  <meta name="twitter:image" content="https://example.com/assets/images/hero-coffee.jpg">
+  <meta
+    name="robots"
+    content="index, follow"
+  >
 
-  <meta name="theme-color" content="#2B1B12">
-  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <meta
+    name="theme-color"
+    content="#2B1B12"
+  >
 
-  <link rel="stylesheet" href="css/style.css">
+  <meta
+    property="og:type"
+    content="website"
+  >
 
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CafeOrCoffeeShop",
-    "name": "MOLA Coffee & Kitchen",
-    "image": "https://example.com/assets/images/hero-coffee.jpg",
-    "telephone": "+905550000000",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Merkez Mah. Mola Sok. No:12",
-      "addressLocality": "İstanbul",
-      "addressCountry": "TR"
-    },
-    "url": "https://example.com/",
-    "openingHours": "Mo-Su 08:00-24:00",
-    "servesCuisine": "Cafe"
-  }
-  </script>
+  <meta
+    property="og:title"
+    content="MOLA Coffee & Kitchen | Günün en güzel molası."
+  >
+
+  <meta
+    property="og:description"
+    content="İyi kahve, taze kahvaltı, tatlılar ve keyifli sohbetler için modern bir kafe konsepti."
+  >
+
+  <meta
+    property="og:locale"
+    content="tr_TR"
+  >
+
+  <meta
+    name="twitter:card"
+    content="summary_large_image"
+  >
+
+  <meta
+    name="twitter:title"
+    content="MOLA Coffee & Kitchen | Günün en güzel molası."
+  >
+
+  <meta
+    name="twitter:description"
+    content="İyi kahve, taze kahvaltı, tatlılar ve keyifli sohbetler için modern bir kafe konsepti."
+  >
+
+  <link
+    rel="icon"
+    href="assets/icons/favicon.svg"
+    type="image/svg+xml"
+  >
+
+  <link
+    rel="stylesheet"
+    href="css/style.css"
+  >
 
   <!--
-  MOLA Coffee & Kitchen is a fictional demo concept.
-  All addresses, phone numbers, prices and testimonials are placeholder/demo data
-  and must be replaced with verified client information before production use.
+    MOLA Coffee & Kitchen fictional demo.
+
+    No real business contact information is used.
+    Phone number, WhatsApp, Instagram, address, opening hours,
+    prices, testimonials and production SEO data must be replaced
+    with verified client information before production use.
+
+    Canonical URL and production social metadata are intentionally
+    omitted until a real production domain is available.
   -->
 </head>
+
 <body>
-  <a class="skip-link" href="#main-content">İçeriğe geç</a>
+
+  <a
+    class="skip-link"
+    href="#main-content"
+  >
+    İçeriğe geç
+  </a>
 
   <header class="site-header">
-    <div class="container header__inner">
-      <a class="logo" href="index.html" aria-label="MOLA Coffee & Kitchen ana sayfa">
-        <span class="logo__mark">MOLA</span>
-        <span class="logo__sub">COFFEE &amp; KITCHEN</span>
+    <div class="container site-header__inner">
+
+      <a
+        class="brand"
+        href="index.html"
+        aria-label="MOLA Coffee & Kitchen ana sayfa"
+      >
+        MOLA
       </a>
 
-      <button class="nav-toggle" type="button" aria-label="Menüyü aç" aria-expanded="false" aria-controls="primary-navigation">
-        <span class="nav-toggle__line"></span>
-        <span class="nav-toggle__line"></span>
-        <span class="nav-toggle__line"></span>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Menüyü aç"
+        aria-expanded="false"
+        aria-controls="primary-navigation"
+      >
+        <span class="nav-toggle__icon" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </span>
       </button>
 
-      <nav id="primary-navigation" class="primary-nav" aria-label="Ana navigasyon">
+      <nav
+        class="primary-nav"
+        id="primary-navigation"
+        aria-label="Ana navigasyon"
+      >
         <ul class="primary-nav__list">
-          <li><a href="index.html" aria-current="page">Ana Sayfa</a></li>
-          <li><a href="menu.html">Menü</a></li>
-          <li><a href="about.html">Hakkımızda</a></li>
-          <li><a href="#gallery">Galeri</a></li>
-          <li><a href="#contact">İletişim</a></li>
+
+          <li>
+            <a
+              href="index.html"
+              aria-current="page"
+            >
+              Ana Sayfa
+            </a>
+          </li>
+
+          <li>
+            <a href="menu.html">
+              Menü
+            </a>
+          </li>
+
+          <li>
+            <a href="about.html">
+              Hakkımızda
+            </a>
+          </li>
+
+          <li>
+            <a href="#gallery">
+              Galeri
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact">
+              İletişim
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="button button--primary"
+              href="menu.html"
+            >
+              Menüyü Gör
+            </a>
+          </li>
+
         </ul>
-        <a class="button button--primary header__cta" href="menu.html">Menüyü Gör</a>
       </nav>
+
     </div>
   </header>
 
   <main id="main-content">
 
-    <section class="hero" aria-label="Giriş">
+    <!-- HERO -->
+
+    <section
+      class="hero"
+      aria-labelledby="hero-heading"
+    >
+
       <div class="hero__media">
         <img
-          class="hero__image"
           src="assets/images/hero-coffee.jpg"
-          alt="MOLA'nın bar tezgahında hazırlanan bir kahve, buharı yükselirken"
+          alt="MOLA Coffee & Kitchen konseptini temsil eden kahve görseli"
           width="1600"
           height="1000"
           loading="eager"
           fetchpriority="high"
-          decoding="async">
+          decoding="async"
+        >
       </div>
+
       <div class="container hero__content">
-        <p class="hero__eyebrow">KAHVE · KAHVALTI · TATLI · SOHBET</p>
-        <h1 class="hero__title">Günün en güzel molası.</h1>
-        <p class="hero__description">Güne güzel bir kahveyle başla, uzun bir kahvaltıyla devam et ya da günün telaşına kısa bir mola ver.</p>
-        <div class="hero__actions">
-          <a class="button button--primary" href="menu.html">Menüyü Keşfet</a>
-          <a class="button button--secondary" href="#contact">Bize Gel</a>
+
+        <div class="hero__content-inner">
+
+          <p class="hero__eyebrow">
+            KAHVE · KAHVALTI · TATLI · SOHBET
+          </p>
+
+          <h1 class="hero__title">
+            Günün en güzel molası.
+          </h1>
+
+          <p class="hero__description">
+            Güne güzel bir kahveyle başla, uzun bir kahvaltıyla
+            devam et ya da günün telaşına kısa bir mola ver.
+          </p>
+
+          <div class="hero__actions">
+
+            <a
+              class="button button--primary"
+              href="menu.html"
+            >
+              Menüyü Keşfet
+            </a>
+
+            <a
+              class="button button--secondary"
+              href="#contact"
+            >
+              Bize Gel
+            </a>
+
+          </div>
+
         </div>
+
       </div>
-      <a class="hero__scroll" href="#featured" aria-label="Sayfada aşağı in">
-        <span class="hero__scroll-line"></span>
-      </a>
+
     </section>
 
-    <section class="featured" id="featured" aria-labelledby="featured-heading">
+
+    <!-- FEATURED -->
+
+    <section
+      class="section featured"
+      id="featured"
+      aria-labelledby="featured-heading"
+    >
+
       <div class="container">
-        <div class="section-heading">
-          <h2 id="featured-heading">Bugünün favorileri</h2>
-          <p>Masaya geldiğinde fotoğrafını çekmek isteyeceğin, ilk lokmada neden favorimiz olduğunu anlayacağın lezzetler.</p>
+
+        <div class="featured__header">
+
+          <div>
+            <p class="section-label">
+              ÖNE ÇIKANLAR
+            </p>
+
+            <h2 id="featured-heading">
+              Bugünün favorileri
+            </h2>
+          </div>
+
+          <p class="section-intro">
+            Masaya geldiğinde fotoğrafını çekmek isteyeceğin,
+            ilk lokmada neden favorimiz olduğunu anlayacağın
+            lezzetler.
+          </p>
+
         </div>
 
-        <div class="featured__grid">
-          <article class="featured__item">
-            <figure class="featured__figure">
-              <img src="assets/images/mola-latte.jpg" alt="Latte art detaylı Mola Latte, ahşap masa üzerinde" width="800" height="600" loading="lazy" decoding="async">
-            </figure>
-            <div class="featured__details">
-              <p class="featured__category">Kahve</p>
-              <h3 class="featured__name">Mola Latte</h3>
-              <p class="featured__description">Yoğun espresso, kadifemsi süt ve MOLA dokunuşu.</p>
-              <p class="featured__price">₺145</p>
+        <div class="featured-grid">
+
+          <article class="featured-card">
+
+            <div class="featured-card__image">
+              <img
+                src="assets/images/mola-latte.jpg"
+                alt="Latte art detaylı Mola Latte"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              >
             </div>
+
+            <div class="featured-card__content">
+
+              <p class="section-label">
+                KAHVE
+              </p>
+
+              <h3>
+                Mola Latte
+              </h3>
+
+              <div class="featured-card__meta">
+
+                <p>
+                  Yoğun espresso, kadifemsi süt
+                  ve MOLA dokunuşu.
+                </p>
+
+                <span class="featured-card__price">
+                  ₺145
+                </span>
+
+              </div>
+
+            </div>
+
           </article>
 
-          <article class="featured__item">
-            <figure class="featured__figure">
-              <img src="assets/images/san-sebastian.jpg" alt="Dilimlenmiş San Sebastian pastası, tabakta" width="800" height="600" loading="lazy" decoding="async">
-            </figure>
-            <div class="featured__details">
-              <p class="featured__category">Tatlı</p>
-              <h3 class="featured__name">San Sebastian</h3>
-              <p class="featured__description">Dışı hafif karamelize, içi kremsi klasik.</p>
-              <p class="featured__price">₺185</p>
+
+          <article class="featured-card">
+
+            <div class="featured-card__image">
+              <img
+                src="assets/images/san-sebastian.jpg"
+                alt="Dilimlenmiş San Sebastian pastası"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              >
             </div>
+
+            <div class="featured-card__content">
+
+              <p class="section-label">
+                TATLI
+              </p>
+
+              <h3>
+                San Sebastian
+              </h3>
+
+              <div class="featured-card__meta">
+
+                <p>
+                  Dışı hafif karamelize,
+                  içi kremsi klasik.
+                </p>
+
+                <span class="featured-card__price">
+                  ₺185
+                </span>
+
+              </div>
+
+            </div>
+
           </article>
 
-          <article class="featured__item">
-            <figure class="featured__figure">
-              <img src="assets/images/avocado-toast.jpg" alt="Ekşi mayalı ekmek üzerinde avokado tost, yumurta ile" width="800" height="600" loading="lazy" decoding="async">
-            </figure>
-            <div class="featured__details">
-              <p class="featured__category">Kahvaltı</p>
-              <h3 class="featured__name">Avokadolu Tost</h3>
-              <p class="featured__description">Ekşi mayalı ekmek, avokado, yumurta ve taze dokunuşlar.</p>
-              <p class="featured__price">₺235</p>
+
+          <article class="featured-card">
+
+            <div class="featured-card__image">
+              <img
+                src="assets/images/avocado-toast.jpg"
+                alt="Ekşi mayalı ekmek üzerinde avokadolu tost"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+              >
             </div>
+
+            <div class="featured-card__content">
+
+              <p class="section-label">
+                KAHVALTI
+              </p>
+
+              <h3>
+                Avokadolu Tost
+              </h3>
+
+              <div class="featured-card__meta">
+
+                <p>
+                  Ekşi mayalı ekmek, avokado,
+                  yumurta ve taze dokunuşlar.
+                </p>
+
+                <span class="featured-card__price">
+                  ₺235
+                </span>
+
+              </div>
+
+            </div>
+
           </article>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="story" aria-labelledby="story-heading">
-      <div class="container story__inner">
-        <figure class="story__figure">
-          <img src="assets/images/story-interior.jpg" alt="MOLA'nın iç mekanından bir kare, sıcak ışıklandırma ve ahşap masalar" width="900" height="1100" loading="lazy" decoding="async">
-        </figure>
+
+    <!-- STORY -->
+
+    <section
+      class="section story"
+      aria-labelledby="story-heading"
+    >
+
+      <div class="container story__grid">
+
+        <div class="story__image">
+
+          <img
+            src="assets/images/story-interior.jpg"
+            alt="MOLA Coffee & Kitchen konseptini temsil eden sıcak ve modern iç mekan"
+            width="900"
+            height="1100"
+            loading="lazy"
+            decoding="async"
+          >
+
+        </div>
+
         <div class="story__content">
-          <h2 id="story-heading">Bir kahveden daha fazlası.</h2>
-          <p>MOLA, günün koşturmacası içinde kendine ayırdığın o küçük anı güzelleştirmek için doğdu. İyi kahve, taze mutfak, rahat bir atmosfer ve uzun sohbetler için buradayız.</p>
-          <ul class="story__usp-list">
-            <li class="story__usp">
-              <p class="story__usp-value">08:00–00:00</p>
-              <p class="story__usp-label">Her gün açık</p>
-            </li>
-            <li class="story__usp">
-              <p class="story__usp-value">Taze</p>
-              <p class="story__usp-label">Günlük mutfak</p>
-            </li>
-            <li class="story__usp">
-              <p class="story__usp-value">Özenle</p>
-              <p class="story__usp-label">Seçilen kahveler</p>
-            </li>
-          </ul>
+
+          <p class="section-label">
+            MOLA'NIN HİKAYESİ
+          </p>
+
+          <h2 id="story-heading">
+            Bir kahveden daha fazlası.
+          </h2>
+
+          <p>
+            MOLA, günün koşturmacası içinde kendine ayırdığın
+            o küçük anı güzelleştirmek için tasarlanmış
+            kurgusal bir kafe konseptidir.
+          </p>
+
+          <p>
+            İyi kahve, taze mutfak, rahat bir atmosfer ve
+            uzun sohbetler için sade ama karakterli bir
+            deneyim hedefler.
+          </p>
+
+          <p>
+            Gerçek bir işletmeye uygulandığında bu bölüm,
+            işletmenin gerçek hikâyesi, kuruluş amacı ve
+            marka değerleriyle yeniden hazırlanacaktır.
+          </p>
+
+          <div class="story__actions">
+
+            <a
+              class="button button--dark"
+              href="about.html"
+            >
+              Hikayemizi Keşfet
+            </a>
+
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="menu-preview" aria-labelledby="menu-preview-heading">
+
+    <!-- MENU PREVIEW -->
+
+    <section
+      class="section menu-preview"
+      aria-labelledby="menu-preview-heading"
+    >
+
       <div class="container">
-        <div class="section-heading">
-          <h2 id="menu-preview-heading">Menüden seçtiklerimiz</h2>
+
+        <div class="featured__header">
+
+          <div>
+
+            <p class="section-label">
+              MENÜ
+            </p>
+
+            <h2 id="menu-preview-heading">
+              Menüden seçtiklerimiz
+            </h2>
+
+          </div>
+
+          <p class="section-intro">
+            Kahveden kahvaltıya, tatlıdan hafif yemeklere
+            kadar MOLA'nın demo menüsünü keşfedin.
+          </p>
+
         </div>
 
-        <div class="menu-filter" role="group" aria-label="Menü kategorisine göre filtrele">
-          <button type="button" class="menu-filter__button is-active" data-filter="tumu" aria-pressed="true">Tümü</button>
-          <button type="button" class="menu-filter__button" data-filter="kahve" aria-pressed="false">Kahve</button>
-          <button type="button" class="menu-filter__button" data-filter="kahvalti" aria-pressed="false">Kahvaltı</button>
-          <button type="button" class="menu-filter__button" data-filter="tatli" aria-pressed="false">Tatlı</button>
-          <button type="button" class="menu-filter__button" data-filter="yemek" aria-pressed="false">Yemek</button>
+
+        <div
+          class="menu-filter"
+          role="group"
+          aria-label="Menü kategorisine göre filtrele"
+        >
+
+          <button
+            type="button"
+            class="menu-filter__button is-active"
+            data-filter="tumu"
+            aria-pressed="true"
+          >
+            Tümü
+          </button>
+
+          <button
+            type="button"
+            class="menu-filter__button"
+            data-filter="kahve"
+            aria-pressed="false"
+          >
+            Kahve
+          </button>
+
+          <button
+            type="button"
+            class="menu-filter__button"
+            data-filter="kahvalti"
+            aria-pressed="false"
+          >
+            Kahvaltı
+          </button>
+
+          <button
+            type="button"
+            class="menu-filter__button"
+            data-filter="tatli"
+            aria-pressed="false"
+          >
+            Tatlı
+          </button>
+
+          <button
+            type="button"
+            class="menu-filter__button"
+            data-filter="yemek"
+            aria-pressed="false"
+          >
+            Yemek
+          </button>
+
         </div>
 
-        <div class="menu-preview__grid" id="menu-preview-grid">
-          <article class="menu-item" data-category="kahve">
-            <img class="menu-item__image" src="assets/images/flat-white.jpg" alt="Latte art detayıyla Flat White" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Flat White</h3>
-                <p class="menu-item__price">₺135</p>
-              </div>
-              <p class="menu-item__description">Yumuşak dokulu süt, dengeli espresso.</p>
+
+        <div
+          class="menu-grid"
+          id="menu-preview-grid"
+        >
+
+          <article
+            class="menu-item"
+            data-category="kahve"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Flat White
+              </h3>
+
+              <p class="menu-item__description">
+                Yumuşak dokulu süt ve dengeli espresso.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺135
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="kahve">
-            <img class="menu-item__image" src="assets/images/caramel-macchiato.jpg" alt="Bardakta karamel katmanlı Caramel Macchiato" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Caramel Macchiato</h3>
-                <p class="menu-item__price">₺150</p>
-              </div>
-              <p class="menu-item__description">Karamel ve espresso, katman katman.</p>
+
+          <article
+            class="menu-item"
+            data-category="kahve"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Caramel Macchiato
+              </h3>
+
+              <p class="menu-item__description">
+                Karamel ve espresso, katman katman.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺150
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="kahve">
-            <img class="menu-item__image" src="assets/images/turk-kahvesi.jpg" alt="Bakır cezvede pişen Türk kahvesi" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Türk Kahvesi</h3>
-                <p class="menu-item__price">₺95</p>
-              </div>
-              <p class="menu-item__description">Kum üstünde, yavaşça pişer.</p>
+
+          <article
+            class="menu-item"
+            data-category="kahve"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Türk Kahvesi
+              </h3>
+
+              <p class="menu-item__description">
+                Geleneksel Türk kahvesi,
+                yoğun ve karakterli.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺95
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="kahvalti">
-            <img class="menu-item__image" src="assets/images/kruvasan-kahvalti.jpg" alt="Tabakta kruvasan, reçel ve peynirlerden oluşan kahvaltı tabağı" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Kruvasan Kahvaltı</h3>
-                <p class="menu-item__price">₺245</p>
-              </div>
-              <p class="menu-item__description">Tereyağlı kruvasan, reçel ve peynir çeşitleriyle.</p>
+
+          <article
+            class="menu-item"
+            data-category="kahvalti"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Kruvasan Kahvaltı
+              </h3>
+
+              <p class="menu-item__description">
+                Tereyağlı kruvasan, reçel ve
+                peynir çeşitleriyle.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺245
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="kahvalti">
-            <img class="menu-item__image" src="assets/images/serpme-kahvalti.jpg" alt="Ahşap tepside serpme kahvaltı sofrası" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Serpme Kahvaltı</h3>
-                <p class="menu-item__price">₺390</p>
-              </div>
-              <p class="menu-item__description">İki kişilik, masayı dolduran klasik sofra.</p>
+
+          <article
+            class="menu-item"
+            data-category="kahvalti"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Serpme Kahvaltı
+              </h3>
+
+              <p class="menu-item__description">
+                İki kişilik, masayı dolduran
+                klasik kahvaltı sofrası.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺390
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="tatli">
-            <img class="menu-item__image" src="assets/images/tiramisu.jpg" alt="Kakao tozu serpilmiş tiramisu dilimi" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Tiramisu</h3>
-                <p class="menu-item__price">₺175</p>
-              </div>
-              <p class="menu-item__description">Kahveli kek, mascarpone kreması.</p>
+
+          <article
+            class="menu-item"
+            data-category="tatli"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Tiramisu
+              </h3>
+
+              <p class="menu-item__description">
+                Kahveli kek ve mascarpone kreması.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺175
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="tatli">
-            <img class="menu-item__image" src="assets/images/brownie.jpg" alt="Tabakta bir dilim brownie" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Brownie</h3>
-                <p class="menu-item__price">₺160</p>
-              </div>
-              <p class="menu-item__description">Yoğun çikolata, hafif çıtır kenar.</p>
+
+          <article
+            class="menu-item"
+            data-category="tatli"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Brownie
+              </h3>
+
+              <p class="menu-item__description">
+                Yoğun çikolata ve hafif çıtır kenar.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺160
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="yemek">
-            <img class="menu-item__image" src="assets/images/chicken-wrap.jpg" alt="Kesilmiş Chicken Wrap, tabakta" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Chicken Wrap</h3>
-                <p class="menu-item__price">₺255</p>
-              </div>
-              <p class="menu-item__description">Izgara tavuk, taze sebzeler, ekşi soslu lavaş.</p>
+
+          <article
+            class="menu-item"
+            data-category="yemek"
+          >
+
+            <div>
+
+              <h3 class="menu-item__name">
+                Chicken Wrap
+              </h3>
+
+              <p class="menu-item__description">
+                Izgara tavuk, taze sebzeler
+                ve özel sos.
+              </p>
+
             </div>
+
+            <span class="menu-item__price">
+              ₺255
+            </span>
+
           </article>
 
-          <article class="menu-item" data-category="yemek">
-            <img class="menu-item__image" src="assets/images/club-sandwich.jpg" alt="Üç katlı Club Sandwich, kesilmiş hâlde" width="600" height="600" loading="lazy" decoding="async">
-            <div class="menu-item__body">
-              <div class="menu-item__heading">
-                <h3 class="menu-item__name">Club Sandwich</h3>
-                <p class="menu-item__price">₺265</p>
-              </div>
-              <p class="menu-item__description">Üç katlı klasik, közlenmiş tavuklu.</p>
-            </div>
-          </article>
         </div>
+
+
+        <div class="story__actions">
+
+          <a
+            class="button button--dark"
+            href="menu.html"
+          >
+            Tüm Menüyü Gör
+          </a>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="gallery" id="gallery" aria-labelledby="gallery-heading">
-      <div class="container">
-        <div class="section-heading">
-          <h2 id="gallery-heading">MOLA'ya bir göz at</h2>
-          <p>Kahvenin kokusu, mutfaktan gelen sesler ve masada uzayan sohbetler.</p>
-        </div>
 
-        <div class="gallery__grid">
+    <!-- GALLERY -->
+
+    <section
+      class="section gallery"
+      id="gallery"
+      aria-labelledby="gallery-heading"
+    >
+
+      <div class="container">
+
+        <p class="section-label">
+          GALERİ
+        </p>
+
+        <h2 id="gallery-heading">
+          MOLA'ya bir göz at.
+        </h2>
+
+        <p class="section-intro">
+          Kahvenin kokusu, mutfaktan gelen sesler
+          ve masada uzayan sohbetler.
+        </p>
+
+
+        <div class="gallery-grid">
+
           <figure class="gallery__item gallery__item--tall">
-            <img src="assets/images/gallery-01.jpg" alt="Bar tezgahında hazırlanan filtre kahve" width="800" height="1000" loading="lazy" decoding="async">
+
+            <img
+              src="assets/images/gallery-01.jpg"
+              alt="Bar tezgahında hazırlanan filtre kahve"
+              width="800"
+              height="1000"
+              loading="lazy"
+              decoding="async"
+            >
+
           </figure>
+
+
           <figure class="gallery__item">
-            <img src="assets/images/gallery-02.jpg" alt="Ahşap tepside serpme kahvaltı sofrası" width="1000" height="750" loading="lazy" decoding="async">
+
+            <img
+              src="assets/images/gallery-02.jpg"
+              alt="Ahşap tepside kahvaltı sofrası"
+              width="1000"
+              height="750"
+              loading="lazy"
+              decoding="async"
+            >
+
           </figure>
+
+
           <figure class="gallery__item">
-            <img src="assets/images/gallery-03.jpg" alt="Tabakta bir dilim San Sebastian pastası" width="900" height="700" loading="lazy" decoding="async">
+
+            <img
+              src="assets/images/gallery-03.jpg"
+              alt="Tabakta San Sebastian pastası"
+              width="900"
+              height="700"
+              loading="lazy"
+              decoding="async"
+            >
+
           </figure>
+
+
           <figure class="gallery__item gallery__item--wide">
-            <img src="assets/images/gallery-04.jpg" alt="MOLA'nın iç mekanı, ahşap masalar ve sıcak ışık" width="1200" height="800" loading="lazy" decoding="async">
+
+            <img
+              src="assets/images/gallery-04.jpg"
+              alt="MOLA konseptini temsil eden sıcak iç mekan"
+              width="1200"
+              height="800"
+              loading="lazy"
+              decoding="async"
+            >
+
           </figure>
+
+
           <figure class="gallery__item">
-            <img src="assets/images/gallery-05.jpg" alt="Pencere kenarında hazırlanmış bir masa düzeni" width="800" height="900" loading="lazy" decoding="async">
+
+            <img
+              src="assets/images/gallery-05.jpg"
+              alt="Pencere kenarında hazırlanmış masa düzeni"
+              width="800"
+              height="900"
+              loading="lazy"
+              decoding="async"
+            >
+
           </figure>
+
+
           <figure class="gallery__item gallery__item--tall">
-            <img src="assets/images/gallery-06.jpg" alt="Kafede sohbet eden bir grup arkadaş" width="800" height="1000" loading="lazy" decoding="async">
+
+            <img
+              src="assets/images/gallery-06.jpg"
+              alt="Kafede sohbet eden arkadaşları temsil eden demo görsel"
+              width="800"
+              height="1000"
+              loading="lazy"
+              decoding="async"
+            >
+
           </figure>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="testimonials" aria-labelledby="testimonials-heading">
+
+    <!-- TESTIMONIALS -->
+
+    <section
+      class="section testimonials"
+      aria-labelledby="testimonials-heading"
+    >
+
       <div class="container">
-        <div class="section-heading">
-          <h2 id="testimonials-heading">MOLA'da nasıl hissediliyor?</h2>
+
+        <div class="testimonials__header">
+
+          <p class="section-label">
+            DEMO İÇERİK
+          </p>
+
+          <h2 id="testimonials-heading">
+            Gerçek deneyimler burada olacak.
+          </h2>
+
+          <p class="section-intro">
+            Bu yorumlar yalnızca tasarım ve demo amacıyla
+            oluşturulmuştur. Gerçek bir işletmede yalnızca
+            doğrulanmış ve kullanımı uygun müşteri yorumları
+            yayınlanacaktır.
+          </p>
+
         </div>
 
-        <ul class="testimonials__list">
-          <li class="testimonial">
-            <blockquote class="testimonial__quote">
-              <p>Sunumlar çok güzel, kahvesi gerçekten başarılı. Birkaç saat çalışmak için de çok rahat.</p>
-            </blockquote>
-            <p class="testimonial__author">— Demo Müşteri</p>
-          </li>
-          <li class="testimonial">
-            <blockquote class="testimonial__quote">
-              <p>Kahvaltısı hem doyurucu hem de sunumu çok iyi. Özellikle hafta sonu için güzel bir seçenek.</p>
-            </blockquote>
-            <p class="testimonial__author">— Demo Müşteri</p>
-          </li>
-          <li class="testimonial">
-            <blockquote class="testimonial__quote">
-              <p>Tatlı ve kahve ikilisi için kesinlikle tekrar gelirim.</p>
-            </blockquote>
-            <p class="testimonial__author">— Demo Müşteri</p>
-          </li>
-        </ul>
+
+        <div class="testimonials__grid">
+
+          <article class="testimonial">
+
+            <p class="testimonial__quote">
+              “Demo müşteri yorumu burada yer alacak.”
+            </p>
+
+            <p class="testimonial__author">
+              Demo Müşteri
+            </p>
+
+          </article>
+
+
+          <article class="testimonial">
+
+            <p class="testimonial__quote">
+              “Gerçek müşteri deneyimi üretim aşamasında
+              doğrulanmış içerikle değiştirilecektir.”
+            </p>
+
+            <p class="testimonial__author">
+              Demo İçerik
+            </p>
+
+          </article>
+
+
+          <article class="testimonial">
+
+            <p class="testimonial__quote">
+              “Gerçek işletme bilgileri müşteriden
+              alınarak siteye aktarılacaktır.”
+            </p>
+
+            <p class="testimonial__author">
+              Demo İçerik
+            </p>
+
+          </article>
+
+        </div>
+
       </div>
+
     </section>
 
-    <section class="contact" id="contact" aria-labelledby="contact-heading">
-      <div class="container contact__inner">
-        <div class="contact__info">
-          <h2 id="contact-heading">Molanı planla.</h2>
 
-          <address class="contact__address">
-            Merkez Mah. Mola Sok. No:12<br>
-            İstanbul, Türkiye
-          </address>
+    <!-- CONTACT -->
 
-          <dl class="contact__details">
-            <div class="contact__detail">
-              <dt>Telefon</dt>
-              <dd><a href="tel:+905550000000">+90 555 000 00 00</a></dd>
-            </div>
-            <div class="contact__detail">
-              <dt>WhatsApp</dt>
-              <dd><a href="https://wa.me/905550000000">+90 555 000 00 00</a></dd>
-            </div>
-            <div class="contact__detail">
-              <dt>Çalışma saatleri</dt>
-              <dd>Her gün 08:00 – 00:00</dd>
-            </div>
-            <div class="contact__detail">
-              <dt>Instagram</dt>
-              <dd><a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">@molacoffeekitchen</a></dd>
-            </div>
-          </dl>
+    <section
+      class="section contact"
+      id="contact"
+      aria-labelledby="contact-heading"
+    >
 
-          <a class="button button--primary" href="https://wa.me/905550000000">WhatsApp'tan Yaz</a>
+      <div class="container">
+
+        <div class="contact__grid">
+
+          <div>
+
+            <p class="section-label">
+              İLETİŞİM
+            </p>
+
+            <h2 id="contact-heading">
+              Molanı planla.
+            </h2>
+
+            <p class="section-intro">
+              Bu alan gerçek müşteriyle çalışırken işletmenin
+              doğrulanmış iletişim ve konum bilgileriyle
+              doldurulacaktır.
+            </p>
+
+          </div>
+
+
+          <div class="contact__details">
+
+            <div class="contact__item">
+
+              <p class="contact__label">
+                Adres
+              </p>
+
+              <p class="contact__value">
+                Gerçek işletme adresi burada yer alacak.
+              </p>
+
+            </div>
+
+
+            <div class="contact__item">
+
+              <p class="contact__label">
+                Telefon
+              </p>
+
+              <p class="contact__value">
+                Doğrulanmış işletme telefonu burada yer alacak.
+              </p>
+
+            </div>
+
+
+            <div class="contact__item">
+
+              <p class="contact__label">
+                WhatsApp
+              </p>
+
+              <p class="contact__value">
+                Doğrulanmış WhatsApp hesabı burada yer alacak.
+              </p>
+
+            </div>
+
+
+            <div class="contact__item">
+
+              <p class="contact__label">
+                Çalışma Saatleri
+              </p>
+
+              <p class="contact__value">
+                Müşteriden doğrulanmış çalışma saatleri
+                burada yer alacak.
+              </p>
+
+            </div>
+
+
+            <div class="contact__item">
+
+              <p class="contact__label">
+                Instagram
+              </p>
+
+              <p class="contact__value">
+                Doğrulanmış sosyal medya hesabı burada
+                yer alacak.
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="contact__map">
+
+            <div>
+
+              <p>
+                Harita önizlemesi demo sürümünde
+                kullanılmamaktadır.
+              </p>
+
+              <p>
+                Gerçek işletme konumu doğrulandığında
+                Google Maps bağlantısı eklenecektir.
+              </p>
+
+            </div>
+
+          </div>
+
         </div>
 
-        <div class="contact__map">
-          <p class="contact__map-note">Harita önizlemesi demo sürümde yer almıyor.</p>
-          <a class="button button--secondary" href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Haritada Gör</a>
-        </div>
       </div>
+
     </section>
 
   </main>
 
+
+  <!-- FOOTER -->
+
   <footer class="site-footer">
-    <div class="container footer__inner">
-      <div class="footer__brand">
-        <p class="footer__logo">MOLA</p>
-        <p class="footer__sub">COFFEE &amp; KITCHEN</p>
-        <p class="footer__slogan">Günün en güzel molası.</p>
+
+    <div class="container site-footer__inner">
+
+      <div>
+
+        <div class="site-footer__brand">
+          MOLA
+        </div>
+
+        <p>
+          Günün en güzel molası.
+        </p>
+
       </div>
 
-      <nav class="footer__nav" aria-label="Alt navigasyon">
-        <ul>
-          <li><a href="index.html">Ana Sayfa</a></li>
-          <li><a href="menu.html">Menü</a></li>
-          <li><a href="about.html">Hakkımızda</a></li>
-          <li><a href="#gallery">Galeri</a></li>
-          <li><a href="#contact">İletişim</a></li>
-        </ul>
-      </nav>
 
-      <div class="footer__social">
-        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
-        <a href="https://wa.me/905550000000" target="_blank" rel="noopener noreferrer">WhatsApp</a>
-      </div>
+      <ul class="site-footer__links">
+
+        <li>
+          <a href="index.html">
+            Ana Sayfa
+          </a>
+        </li>
+
+        <li>
+          <a href="menu.html">
+            Menü
+          </a>
+        </li>
+
+        <li>
+          <a href="about.html">
+            Hakkımızda
+          </a>
+        </li>
+
+        <li>
+          <a href="#gallery">
+            Galeri
+          </a>
+        </li>
+
+        <li>
+          <a href="#contact">
+            İletişim
+          </a>
+        </li>
+
+      </ul>
+
     </div>
 
-    <div class="container footer__bottom">
-      <p>© 2026 MOLA Coffee & Kitchen. Tüm hakları saklıdır.</p>
-    </div>
   </footer>
 
-  <script src="js/script.js" defer></script>
+
+  <script
+    src="js/script.js"
+    defer
+  ></script>
+
 </body>
 </html>
