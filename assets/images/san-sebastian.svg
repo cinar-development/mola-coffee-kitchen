@@ -1,0 +1,174 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9DED2"/>
+      <stop offset="1" stop-color="#CDB7A5"/>
+    </linearGradient>
+
+    <linearGradient id="table" x1="0" y1="360" x2="0" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6B4935"/>
+      <stop offset="1" stop-color="#3C271D"/>
+    </linearGradient>
+
+    <linearGradient id="plate" x1="250" y1="320" x2="550" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#E9DED4"/>
+    </linearGradient>
+
+    <linearGradient id="cake" x1="300" y1="260" x2="500" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F3D7B6"/>
+      <stop offset="1" stop-color="#C88E5B"/>
+    </linearGradient>
+
+    <linearGradient id="top" x1="300" y1="245" x2="500" y2="330" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF1D7"/>
+      <stop offset="1" stop-color="#DDA66F"/>
+    </linearGradient>
+
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(160 150) rotate(48) scale(380 300)">
+      <stop stop-color="#FFF8EE" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#FFF8EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="shadow" x="240" y="350" width="320" height="150" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="softShadow" x="270" y="230" width="260" height="230" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#background)"/>
+  <rect width="800" height="600" fill="url(#light)"/>
+
+  <!-- Window / architectural shapes -->
+  <rect x="70" y="65" width="210" height="220" rx="4" fill="#F7F0E8" fill-opacity="0.48"/>
+  <rect x="92" y="87" width="166" height="176" fill="#B7C5C0" fill-opacity="0.25"/>
+  <path d="M175 87V263" stroke="#F8F1E8" stroke-width="8" stroke-opacity="0.65"/>
+  <path d="M92 175H258" stroke="#F8F1E8" stroke-width="8" stroke-opacity="0.65"/>
+
+  <!-- Soft wall details -->
+  <circle cx="670" cy="130" r="76" fill="#B99072" fill-opacity="0.14"/>
+  <circle cx="670" cy="130" r="48" fill="#FFF5E8" fill-opacity="0.22"/>
+
+  <!-- Small plant -->
+  <path d="M625 285C620 248 625 217 642 188" stroke="#5E6B51" stroke-width="6" stroke-linecap="round"/>
+  <path d="M639 215C615 208 603 192 603 176C621 178 636 191 639 215Z" fill="#68785B"/>
+  <path d="M632 235C652 220 670 218 684 224C676 242 657 247 632 235Z" fill="#738363"/>
+  <path d="M625 254C605 243 593 230 591 215C609 216 623 229 625 254Z" fill="#596A50"/>
+  <path d="M644 197C649 178 662 165 678 163C678 181 665 194 644 197Z" fill="#7C896C"/>
+
+  <!-- Plant pot -->
+  <path d="M602 278H680L668 350H614L602 278Z" fill="#A66C4B"/>
+  <ellipse cx="641" cy="278" rx="39" ry="10" fill="#7C5039"/>
+
+  <!-- Table -->
+  <rect y="375" width="800" height="225" fill="url(#table)"/>
+  <path d="M0 410C170 392 315 430 470 411C610 394 710 403 800 418" stroke="#8A6047" stroke-width="3" stroke-opacity="0.45"/>
+  <path d="M0 490C180 470 325 505 490 486C625 470 710 480 800 492" stroke="#8A6047" stroke-width="2" stroke-opacity="0.32"/>
+
+  <!-- Plate shadow -->
+  <ellipse cx="400" cy="452" rx="180" ry="38" fill="#1E130E" fill-opacity="0.4" filter="url(#shadow)"/>
+
+  <!-- Plate -->
+  <ellipse cx="400" cy="425" rx="168" ry="65" fill="url(#plate)"/>
+  <ellipse cx="400" cy="421" rx="145" ry="51" fill="#F4EEE8"/>
+  <ellipse cx="400" cy="419" rx="128" ry="42" fill="#FFFDF9"/>
+
+  <!-- Cake shadow -->
+  <ellipse cx="400" cy="365" rx="112" ry="34" fill="#3B251A" fill-opacity="0.35" filter="url(#softShadow)"/>
+
+  <!-- San Sebastian cake body -->
+  <path d="M298 280
+           C310 267 331 261 355 260
+           H445
+           C469 261 490 267 502 280
+           L490 390
+           C472 411 441 421 400 421
+           C359 421 328 411 310 390
+           L298 280Z"
+        fill="url(#cake)"/>
+
+  <!-- Cake side baked edge -->
+  <path d="M298 280
+           C309 291 331 297 356 299
+           H444
+           C469 297 491 291 502 280
+           L490 390
+           C472 411 441 421 400 421
+           C359 421 328 411 310 390
+           Z"
+        fill="#B8754A"
+        fill-opacity="0.42"/>
+
+  <!-- Creamy interior -->
+  <path d="M311 288
+           C329 276 348 273 371 274
+           H429
+           C452 273 471 276 489 288
+           L480 380
+           C460 397 433 404 400 404
+           C367 404 340 397 320 380
+           L311 288Z"
+        fill="#E9C69E"
+        fill-opacity="0.78"/>
+
+  <!-- Cake top -->
+  <ellipse cx="400" cy="278" rx="102" ry="32" fill="url(#top)"/>
+  <ellipse cx="400" cy="274" rx="84" ry="23" fill="#FFF0D4" fill-opacity="0.68"/>
+
+  <!-- Burnt top accents -->
+  <path d="M318 271C338 254 375 247 409 250C442 252 473 261 486 276"
+        stroke="#9A5B38"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-opacity="0.68"/>
+
+  <path d="M333 263C355 252 378 250 401 252"
+        stroke="#7D4931"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-opacity="0.55"/>
+
+  <path d="M430 254C452 258 469 264 480 272"
+        stroke="#875033"
+        stroke-width="6"
+        stroke-linecap="round"
+        stroke-opacity="0.52"/>
+
+  <!-- Cake highlight -->
+  <path d="M329 304C342 294 359 290 375 291"
+        stroke="#F7DDBB"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-opacity="0.6"/>
+
+  <!-- Fork -->
+  <g opacity="0.8">
+    <path d="M555 350V445" stroke="#D8CEC4" stroke-width="5" stroke-linecap="round"/>
+    <path d="M545 350V381" stroke="#D8CEC4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M555 350V381" stroke="#D8CEC4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M565 350V381" stroke="#D8CEC4" stroke-width="4" stroke-linecap="round"/>
+    <path d="M545 381C545 392 549 398 555 398C561 398 565 392 565 381"
+          stroke="#D8CEC4" stroke-width="4" fill="none"/>
+  </g>
+
+  <!-- Coffee beans -->
+  <g opacity="0.65">
+    <ellipse cx="185" cy="445" rx="13" ry="8" transform="rotate(-28 185 445)" fill="#4B2C20"/>
+    <path d="M177 448C183 443 190 441 195 442" stroke="#A9795A" stroke-width="2"/>
+
+    <ellipse cx="615" cy="470" rx="14" ry="8" transform="rotate(22 615 470)" fill="#4B2C20"/>
+    <path d="M606 467C613 470 619 471 624 469" stroke="#A9795A" stroke-width="2"/>
+  </g>
+
+  <!-- Foreground texture -->
+  <path d="M80 550C180 530 245 565 350 550C470 533 555 570 720 545"
+        stroke="#9A6A4E" stroke-width="2" stroke-opacity="0.24"/>
+
+  <!-- Subtle highlight -->
+  <ellipse cx="400" cy="260" rx="180" ry="90" fill="#FFF5E6" fill-opacity="0.06"/>
+</svg>
