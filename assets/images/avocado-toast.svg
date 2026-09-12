@@ -1,0 +1,215 @@
+<svg width="800" height="600" viewBox="0 0 800 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="800" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E7DED4"/>
+      <stop offset="1" stop-color="#C9B9A9"/>
+    </linearGradient>
+
+    <linearGradient id="table" x1="0" y1="370" x2="0" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#684633"/>
+      <stop offset="1" stop-color="#39251C"/>
+    </linearGradient>
+
+    <linearGradient id="plate" x1="245" y1="320" x2="555" y2="500" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFDF9"/>
+      <stop offset="1" stop-color="#E6DDD5"/>
+    </linearGradient>
+
+    <linearGradient id="toast" x1="280" y1="255" x2="520" y2="430" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#DCA66D"/>
+      <stop offset="1" stop-color="#A9683E"/>
+    </linearGradient>
+
+    <linearGradient id="avocado" x1="320" y1="250" x2="500" y2="380" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9EAF68"/>
+      <stop offset="1" stop-color="#526A3E"/>
+    </linearGradient>
+
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+      gradientTransform="translate(150 135) rotate(48) scale(390 310)">
+      <stop stop-color="#FFF8ED" stop-opacity="0.82"/>
+      <stop offset="1" stop-color="#FFF8ED" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="plateShadow" x="220" y="350" width="360" height="150" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="toastShadow" x="250" y="245" width="300" height="230" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#background)"/>
+  <rect width="800" height="600" fill="url(#light)"/>
+
+  <!-- Window -->
+  <rect x="72" y="65" width="215" height="225" rx="4" fill="#F8F1E9" fill-opacity="0.5"/>
+  <rect x="94" y="87" width="171" height="181" fill="#B8C7C1" fill-opacity="0.25"/>
+  <path d="M179 87V268" stroke="#FFF8EF" stroke-width="8" stroke-opacity="0.62"/>
+  <path d="M94 177H265" stroke="#FFF8EF" stroke-width="8" stroke-opacity="0.62"/>
+
+  <!-- Wall decoration -->
+  <circle cx="670" cy="125" r="82" fill="#A8795C" fill-opacity="0.12"/>
+  <circle cx="670" cy="125" r="52" fill="#FFF7EA" fill-opacity="0.2"/>
+
+  <!-- Small plant -->
+  <path d="M625 288C621 251 628 220 646 190" stroke="#59694D" stroke-width="6" stroke-linecap="round"/>
+
+  <path d="M641 216C616 210 604 194 604 178C622 180 638 192 641 216Z"
+        fill="#657653"/>
+
+  <path d="M634 237C653 223 670 220 685 226C677 243 658 249 634 237Z"
+        fill="#748562"/>
+
+  <path d="M628 257C608 247 596 234 594 219C612 220 626 233 628 257Z"
+        fill="#536749"/>
+
+  <path d="M649 198C654 180 667 167 681 165C680 182 668 195 649 198Z"
+        fill="#7D8D6B"/>
+
+  <path d="M601 280H680L668 350H614L601 280Z" fill="#A56B4A"/>
+  <ellipse cx="641" cy="280" rx="40" ry="10" fill="#774D38"/>
+
+  <!-- Table -->
+  <rect y="375" width="800" height="225" fill="url(#table)"/>
+  <path d="M0 412C155 394 300 430 463 412C610 395 713 404 800 420"
+        stroke="#895D45" stroke-width="3" stroke-opacity="0.45"/>
+  <path d="M0 493C175 474 320 507 492 488C630 472 715 481 800 494"
+        stroke="#895D45" stroke-width="2" stroke-opacity="0.32"/>
+
+  <!-- Plate shadow -->
+  <ellipse cx="400" cy="456" rx="182" ry="38"
+           fill="#1D120D" fill-opacity="0.4" filter="url(#plateShadow)"/>
+
+  <!-- Plate -->
+  <ellipse cx="400" cy="426" rx="171" ry="65" fill="url(#plate)"/>
+  <ellipse cx="400" cy="422" rx="147" ry="51" fill="#F3ECE5"/>
+  <ellipse cx="400" cy="420" rx="129" ry="42" fill="#FFFDF9"/>
+
+  <!-- Toast shadow -->
+  <ellipse cx="400" cy="378" rx="125" ry="42"
+           fill="#3B2419" fill-opacity="0.38" filter="url(#toastShadow)"/>
+
+  <!-- Toast -->
+  <path d="M282 294
+           C285 266 306 246 337 242
+           H463
+           C494 246 515 266 518 294
+           L507 387
+           C503 409 485 423 461 426
+           H339
+           C315 423 297 409 293 387
+           L282 294Z"
+        fill="url(#toast)"/>
+
+  <!-- Toast crust -->
+  <path d="M295 296
+           C298 275 314 258 340 254
+           H460
+           C486 258 502 275 505 296
+           L495 380
+           C492 397 479 407 459 410
+           H341
+           C321 407 308 397 305 380
+           L295 296Z"
+        fill="#8C5635"
+        fill-opacity="0.5"/>
+
+  <!-- Toast center -->
+  <path d="M309 298
+           C313 280 326 268 346 265
+           H454
+           C474 268 487 280 491 298
+           L482 374
+           C480 389 469 396 452 399
+           H348
+           C331 396 320 389 318 374
+           L309 298Z"
+        fill="#E3B77D"
+        fill-opacity="0.78"/>
+
+  <!-- Avocado spread -->
+  <path d="M316 304
+           C329 281 355 269 382 272
+           C405 260 436 266 454 279
+           C475 281 488 296 486 314
+           C493 331 484 349 470 358
+           C453 373 426 378 402 371
+           C378 381 351 373 337 360
+           C317 350 308 328 316 304Z"
+        fill="url(#avocado)"/>
+
+  <!-- Avocado texture -->
+  <path d="M339 306C352 292 370 285 389 286"
+        stroke="#C0CC88" stroke-width="9" stroke-linecap="round" stroke-opacity="0.55"/>
+
+  <path d="M365 354C385 361 404 361 420 354"
+        stroke="#405735" stroke-width="7" stroke-linecap="round" stroke-opacity="0.48"/>
+
+  <path d="M429 289C445 291 459 298 468 308"
+        stroke="#C1CD83" stroke-width="7" stroke-linecap="round" stroke-opacity="0.5"/>
+
+  <!-- Avocado pieces -->
+  <path d="M327 326C337 316 348 313 359 316C357 329 346 339 332 340C326 337 324 332 327 326Z"
+        fill="#B4C477"/>
+
+  <path d="M393 299C405 290 419 290 429 297C426 309 416 316 402 316C395 312 391 306 393 299Z"
+        fill="#AFC173"/>
+
+  <path d="M443 327C454 318 468 319 476 328C471 341 459 348 446 346C441 341 440 334 443 327Z"
+        fill="#A8BB6E"/>
+
+  <!-- Chili flakes -->
+  <g fill="#A85C32" fill-opacity="0.78">
+    <ellipse cx="350" cy="300" rx="5" ry="2.5" transform="rotate(-22 350 300)"/>
+    <ellipse cx="379" cy="330" rx="5" ry="2.5" transform="rotate(18 379 330)"/>
+    <ellipse cx="430" cy="320" rx="5" ry="2.5" transform="rotate(-18 430 320)"/>
+    <ellipse cx="460" cy="300" rx="4" ry="2" transform="rotate(28 460 300)"/>
+  </g>
+
+  <!-- Sesame seeds -->
+  <g fill="#F3E5C7" fill-opacity="0.9">
+    <ellipse cx="343" cy="346" rx="5" ry="2.5" transform="rotate(30 343 346)"/>
+    <ellipse cx="376" cy="291" rx="5" ry="2.5" transform="rotate(-25 376 291)"/>
+    <ellipse cx="418" cy="344" rx="5" ry="2.5" transform="rotate(22 418 344)"/>
+    <ellipse cx="455" cy="347" rx="5" ry="2.5" transform="rotate(-20 455 347)"/>
+  </g>
+
+  <!-- Lemon wedge -->
+  <path d="M523 378C545 360 566 356 585 365C574 390 555 404 531 407C524 398 521 389 523 378Z"
+        fill="#D8C866"/>
+  <path d="M531 379C545 370 558 368 570 372"
+        stroke="#F6E9A8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M541 399C551 390 558 382 564 371"
+        stroke="#9DA65D" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Knife -->
+  <g opacity="0.78">
+    <path d="M235 350L300 410" stroke="#D6CEC6" stroke-width="5" stroke-linecap="round"/>
+    <path d="M230 346L276 385L286 375L240 340Z" fill="#E9E2DB"/>
+    <path d="M235 350L250 338" stroke="#AFA49A" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Coffee beans -->
+  <g opacity="0.65">
+    <ellipse cx="176" cy="454" rx="13" ry="8"
+             transform="rotate(-28 176 454)" fill="#4A2B1F"/>
+    <path d="M168 457C174 452 181 450 186 451"
+          stroke="#A87859" stroke-width="2"/>
+
+    <ellipse cx="625" cy="472" rx="14" ry="8"
+             transform="rotate(22 625 472)" fill="#4A2B1F"/>
+    <path d="M616 469C623 472 629 473 634 471"
+          stroke="#A87859" stroke-width="2"/>
+  </g>
+
+  <!-- Foreground texture -->
+  <path d="M70 550C180 531 250 566 356 551C474 534 565 570 730 545"
+        stroke="#98684D" stroke-width="2" stroke-opacity="0.24"/>
+
+  <!-- Soft highlight -->
+  <ellipse cx="400" cy="245" rx="190" ry="95"
+           fill="#FFF5E6" fill-opacity="0.06"/>
+</svg>
