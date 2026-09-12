@@ -4,51 +4,38 @@ Modern, responsive and conversion-focused website concept for a contemporary cof
 
 Günün en güzel molası.
 
-⸻
-
 About
 
 MOLA Coffee & Kitchen is a fictional café website concept created as a portfolio and commercial web-design demonstration.
 
-The project is designed around a modern coffee shop experience combining:
+The project represents a modern coffee shop experience combining coffee, breakfast, desserts, light meals and comfortable social spaces.
 
-* Specialty coffee
-* Breakfast
-* Desserts
-* Light meals
-* Comfortable social spaces
-* Clear contact and conversion paths
-
-The website focuses on visual quality, usability, performance and a strong mobile-first experience.
+The website focuses on visual quality, usability, performance, accessibility and clear conversion paths.
 
 Demo project: MOLA Coffee & Kitchen is fictional. Business information, prices, testimonials, contact details and other production data must be replaced with verified client information before launch.
 
-⸻
-
 Project Goals
 
-The project is being developed to demonstrate how a modern local business website can:
+The project is designed to demonstrate how a modern local-business website can:
 
 * Present a clear and memorable brand
 * Showcase products through high-quality photography
 * Make the menu easy to explore
 * Guide visitors toward contact and visit actions
-* Work smoothly across mobile, tablet and desktop devices
+* Work across mobile, tablet and desktop devices
 * Provide a strong technical foundation for SEO
-* Maintain accessible and semantic markup
+* Use accessible and semantic markup
 * Load efficiently without unnecessary dependencies
 
-⸻
+Website
 
-Website Structure
-
-The website is planned around three primary pages:
+The project contains three primary pages.
 
 Homepage
 
-The homepage is the primary conversion and brand experience.
+The homepage is the main brand and conversion experience.
 
-Planned sections:
+It includes:
 
 * Header and navigation
 * Hero section
@@ -78,10 +65,8 @@ The about page introduces:
 * MOLA’s fictional story
 * Brand philosophy
 * Experience principles
-* Demonstration testimonials
+* Demonstration content
 * Navigation toward the menu
-
-⸻
 
 Design Direction
 
@@ -106,23 +91,21 @@ The interface intentionally avoids:
 * Generic SaaS-style layouts
 * Unnecessary decorative elements
 
-The goal is to create a website that feels like a real premium local café brand, rather than a generic template.
+The goal is to create a website that feels like a real premium local café brand rather than a generic template.
 
-⸻
-
-Photography & Assets
+Photography
 
 The visual direction uses real photography rather than generated or coded placeholder artwork.
 
 Current image assets:
 
-assets/images/
-├── hero-coffee.jpg
-├── mola-latte.jpg
-├── avocado-toast.jpg
-└── story-interior.jpg
+File	Purpose
+hero-coffee.jpg	Homepage hero
+mola-latte.jpg	Featured coffee
+avocado-toast.jpg	Featured breakfast
+story-interior.jpg	Brand story / interior
 
-Additional photography will be added as the gallery and product presentation are completed.
+Additional photography will be added as the product presentation and gallery are completed.
 
 Before production use, every external visual asset must be checked for:
 
@@ -130,16 +113,14 @@ Before production use, every external visual asset must be checked for:
 * Applicable license requirements
 * Attribution requirements
 * Trademark or branding restrictions
-* Model/property rights where applicable
+* Model or property rights where applicable
 * Source documentation
 
 The project must not ship with watermarked or improperly licensed imagery.
 
-⸻
-
 Technology
 
-The project intentionally uses a lightweight frontend stack:
+The project uses a lightweight frontend stack:
 
 * HTML5
 * CSS3
@@ -147,15 +128,7 @@ The project intentionally uses a lightweight frontend stack:
 
 No frontend framework is required.
 
-The goal is to keep the site:
-
-* Fast
-* Lightweight
-* Maintainable
-* Easy to deploy
-* Easy to customize for future clients
-
-⸻
+The goal is to keep the website fast, lightweight, maintainable and easy to customize for future clients.
 
 Technical Principles
 
@@ -204,9 +177,7 @@ The production version will include:
 * Descriptive image alt text
 * Production domain configuration
 
-⸻
-
-Demo Data Policy
+Demo Data
 
 The current website contains fictional demonstration information.
 
@@ -228,32 +199,19 @@ The following must be replaced before production:
 
 No fictional information should be presented as verified business information.
 
-⸻
+File Structure
 
-Project Structure
+File / Folder	Purpose
+README.md	Project documentation and development information
+index.html	Homepage
+menu.html	Menu and category filtering
+about.html	About and brand story page
+css/style.css	Global styling and responsive design
+js/script.js	Navigation, filtering and interactive behavior
+assets/images/	Website photography
+assets/icons/	Favicon and future brand icons
 
-mola-coffee-kitchen/
-├── README.md
-├── index.html
-├── about.html
-├── menu.html
-├── css/
-│   └── style.css
-├── js/
-│   └── script.js
-└── assets/
-    ├── images/
-    │   ├── .gitkeep
-    │   ├── hero-coffee.jpg
-    │   ├── mola-latte.jpg
-    │   ├── avocado-toast.jpg
-    │   └── story-interior.jpg
-    └── icons/
-        └── .gitkeep
-
-The structure is intentionally simple so that the project can be easily adapted for future local-business clients.
-
-⸻
+The structure is intentionally simple so the project can be easily adapted for future local-business clients.
 
 Development Status
 
@@ -292,8 +250,6 @@ Planned
 * [ ]	Replace demo business information
 * [ ]	Production deployment
 
-⸻
-
 Quality Assurance
 
 Before the project is considered production-ready, it should be reviewed for:
@@ -313,8 +269,6 @@ Before the project is considered production-ready, it should be reviewed for:
 * Browser compatibility
 
 A final code review and debugging pass will be performed after the main implementation is complete.
-
-⸻
 
 Production Checklist
 
@@ -339,24 +293,20 @@ Before delivering the website to a real client:
 * [ ]	Complete final code review
 * [ ]	Deploy production version
 
-⸻
-
 Project Principles
 
-The project follows these core principles:
+The project follows these principles:
 
-1. Mobile-first
-2. Performance-conscious
-3. Accessible by default
-4. Semantic HTML
-5. Minimal dependencies
-6. Maintainable code
-7. Clear conversion paths
-8. Realistic visual presentation
-9. Verified production information
-10. No misleading demo content
-
-⸻
+* Mobile-first
+* Performance-conscious
+* Accessible by default
+* Semantic HTML
+* Minimal dependencies
+* Maintainable code
+* Clear conversion paths
+* Realistic visual presentation
+* Verified production information
+* No misleading demo content
 
 License
 
